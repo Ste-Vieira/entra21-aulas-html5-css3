@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+
+<body bgcolor="#781ee6">
+    <a href="/index.html">Voltar para a página inicial</a>
+    <hr />
+    <form action="mailto:rubem@oliota.com?subject=Teste de formulário" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" name="Nome" id="nome" placeholder="Informe seu nome" required>
+        <br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" readonly>
+
+        <label for="tema">Tema Preferido</label>
+        <br>
+        <input type="radio" name="tema" value="ligth"> light
+        <input type="radio" name="tema" value="dark">dark
+
+        <br>
+
+        <label for="nascimento">Data de Nasimento</label>
+        <input type="datetime-local" name="nascimento">
+        <br>
+        <label for="cor">Cor preferida</label>
+        <input type="color" name="cor">
+        <hr>
+        <input type="reset" value="Limpar">
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
