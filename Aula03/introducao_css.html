@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <link rel="stylesheet" href="/css/area51.css">
+    <style>
+        p {
+            /* utilizando o nome do seletor, todos os seletores dessa página recebem esse estilo */
+            background-color: #c1c1c1;
+        }
+
+        .destaque {
+            /* utilizando PONTO, todos os seletores que tenham o atributo que contenham esse nome recebem esse estilo */
+            background-color: #0ff61b;
+        }
+
+        #especifico{
+            /* utilizando #, apenas os seletor que tenha o atributo ID = "especifico" recebe esse estilo */
+            border: 1px solid black;
+        }
+    </style>
+
+ 
+</head>
+
+<body>
+    <a class="destaque" href="/index.html">Voltar para página incial</a>
+    <hr>
+    <!-- estilo em linha é recomendado quando não passa de três atributos -->
+    <p style="color:red;background-color: black; font-weight: bold;">vermelho </p>
+
+    <span style="border:1px dashed black ; ">Texto normal</span>
+
+    <ul style="font-weight: bold; background:red; width: 200px;">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+
+    <img style="height:48px; width:48px; border-radius: 50%; " src="/Aula01/Interno/download.png" alt="">
+
+    <div style="text-align:center;border: 1px solid black;">
+        <p>A</p>
+        <p style="color:#ccc;">B</p>
+        <p class="destaque">C</p>
+    </div>
+    <p>TESTANDO CSS</p>
+    <span class="destaque"> Caros amigos, a execução dos pontos do programa é uma das consequências das condições
+        financeiras e
+        administrativas exigidas. Acima de tudo, é fundamental ressaltar que a competitividade nas transações comerciais
+        cumpre um papel essencial na formulação das posturas dos órgãos dirigentes com relação às suas atribuições. O
+        cuidado em identificar pontos críticos na contínua expansão de nossa atividade ainda não demonstrou
+        convincentemente que vai participar na mudança das diretrizes de desenvolvimento para o futuro. Percebemos, cada
+        vez mais, que o desafiador cenário globalizado auxilia a preparação e a composição das direções preferenciais no
+        sentido do progresso.
+
+        É importante questionar o quanto a consolidação das estruturas agrega valor ao estabelecimento do investimento
+        em reciclagem técnica. No entanto, não podemos esquecer que o consenso sobre a necessidade de qualificação exige
+        a precisão e a definição do sistema de participação geral. Assim mesmo, a constante divulgação das informações
+        oferece uma interessante oportunidade para verificação das diversas correntes de pensamento. O incentivo ao
+        avanço tecnológico, assim como o surgimento do comércio virtual assume importantes posições no estabelecimento
+        das condições inegavelmente apropriadas.
+
+        Por outro lado, o início da atividade geral de formação de atitudes facilita a criação dos procedimentos
+        normalmente adotados. A certificação de metodologias que nos auxiliam a lidar com o entendimento das metas
+        propostas acarreta um processo de reformulação e modernização dos índices pretendidos.</span>
+    <br>
+    <!-- i.destaque -->
+    <i class="destaque">Hello</i>
+    <!-- b#epecifico -->
+    <b id="especifico">Stephanie</b>
+
+    <div>blablabla</div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+div{
+    color: grey!important;
+    background-color: red;
+    border: 1px solid black;
+}
+
+a{
+    color: red;
+}
+
+.negrito{
+
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#enviar{
+    background-color: darkblue;
+}
+
+#limpar{
+    background-color: white;
+}
+
+body{
+    background-color:lightpink;
